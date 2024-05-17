@@ -2,7 +2,6 @@
 	        this.x = x;
 	        this.y = y;
 	    };
-		
 	    Vector.prototype = {
 	        rotate: function (theta) {
 	            var x = this.x;
@@ -139,7 +138,6 @@
 	            this.ctx.clearRect(0, 0, this.element.width, this.element.height);
 	        }
 	    }
-
 	    Garden.options = {
 	        petalCount: {
 	            min: 8,
